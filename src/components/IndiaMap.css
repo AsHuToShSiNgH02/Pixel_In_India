@@ -1,0 +1,42 @@
+.map-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 0px;
+  pointer-events: none;
+  border-color: white;
+}
+
+.svg-wrapper {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.svg-wrapper.zoomed {
+  transform: scale(2.5);
+  transform-origin: center;
+}
+
+.state {
+  cursor: pointer;
+  fill: #ccc;
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.state:hover {
+  fill: #ff0;
+}
+
+/* .india-map {
+  border-radius: 2px;
+} */
